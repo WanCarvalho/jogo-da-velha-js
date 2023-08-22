@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 3;
+}
+
+.quadrado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 180px;
+    height: 180px;
+    border: 1px solid black;
+}
+
+.quadrado h1 {
+    font-size: 100px;
+}
+
+.linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.letra {
+    cursor: pointer;
+}
